@@ -1,0 +1,257 @@
+a:hover{
+	text-decoration: none;
+}
+
+.servico-template {
+
+	width: 1280px;
+	padding-top: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	background-size: contain;
+	position: relative;
+
+}
+
+#gravacao-e-producao{
+
+	background-image: url('../img/background-gravacao-e-producao-glow-producoes.jpg');
+
+}
+
+#gravacao-e-producao .servico-audio-texto-titulo{
+	background: #d45847;
+}
+#gravacao-e-producao .servico-audio-foto-right{
+	background-size: cover;
+background-image: url('../img/img-gravacao-e-producao-glow-producoes.jpg');
+
+}
+
+#aovivo{
+
+	background-image: url('../img/background-ao-vivo-glow-producoes.jpg');
+}
+#aovivo .servico-audio-texto-titulo{
+	background: #f8ca4d;
+	color: #464646;
+}
+#aovivo .servico-audio-foto-right{
+	background-size: cover;
+background-image: url('../img/img-ao-vivo-glow-producoes.jpg');
+
+}
+
+
+#trilha-sonora{
+
+	background-image: url('../img/background-trilha-sonora-glow-producoes.jpg');
+}
+#trilha-sonora .servico-audio-texto-titulo{
+	background: #c24366;
+	color: #fff8d8;
+}
+#trilha-sonora .servico-audio-foto-right{
+	background-size: cover;
+background-image: url('../img/img-trilha-sonora-glow-producoes.jpg');
+
+}
+
+
+
+#locucao{
+
+	background-image: url('../img/background-locucao-glow-producoes.jpg');
+}
+#locucao .servico-audio-texto-titulo{
+	background: #249aa7;
+	color: #122f35;
+}
+#locucao .servico-audio-foto-right{
+	background-size: cover;
+background-image: url('../img/img-locucao-glow-producoes.jpg');
+
+}
+
+
+.servico-template p{
+
+font-size: 12pt;
+
+}
+
+.servico-audio-top{
+display: flex;
+
+}
+
+.servico-audio-texto-left{
+	font-family: 'Gudea';
+	padding: 30px;
+	text-align: left;
+	width: 350px;
+	height: 450px;
+
+}
+
+.servico-audio-foto-right{
+
+	color: white;
+width: 900px;
+margin: 30px;
+background: black;
+}
+
+.servico-audio-texto-titulo{
+padding: 15px;
+text-align: center;
+	letter-spacing: 1pt;
+font-size: 28pt;
+font-weight: 100;
+margin-bottom: 10px;
+margin-top: 0px;
+font-family: 'Ubuntu Condensed';
+
+}
+
+.soundcloud-middle{
+
+padding: 30px;
+
+}
+
+.vimeo-middle{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.vimeo-middle-gallery-2{
+	background: black;
+	width: 600px;
+	height: 337px;
+}
+.vimeo-middle .thumb_vimeo_img{
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 337px;
+
+}
+
+.vimeo-middle h3{
+	text-align: center;
+	margin: 0px;
+	color: #464646;
+	font-size: 12pt;
+	padding: 15px;
+	background: #fffffa;
+}
+
+#relacionados {
+margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  text-align: center;
+width:930px;
+}
+
+#relacionados-video-audio-react {
+  background-image: url('http://www.glowproducoes.com.br/sites/glow2017/servicos/audio/img/relacionados-video-audioreact.jpg');
+}
+
+#relacionados-video-videoclipe {
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/audio/img/relacionados-video-videoclipe.jpg');
+}
+
+#relacionados-video-aovivo {
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/audio/img/relacionados-video-aovivo.jpg');
+}
+
+.relacionados-title {
+  background: #565656;
+  text-align: center;
+  margin: auto;
+  font-size: 20pt;
+  padding: 10px;
+  vertical-align: middle;
+  width: 100%;
+  color: white;
+}
+
+#relacionados h3 {
+  width: 300px;
+  padding: 10px;
+  color: white;
+  background: #565656;
+  margin: 170px 0px 0px 0px;
+  font-size: 12pt;
+}
+
+.relacionados-list {
+  width: 300px;
+  height: auto;
+  margin: 10px 5px;
+  display: inline-flex;
+  background-size: 100%;
+  ;
+background-repeat: no-repeat;
+  transition: all ease 0.5s;
+  border: 0px #e0e0e0 solid;
+}
+
+@media (max-width: 1024px) {
+
+	#locucao{
+
+	
+		margin-bottom: 25px;
+	}
+
+	.servico-template {
+		width: 100%;
+		padding-top: 35px;
+	}
+
+	.servico-audio-texto-titulo{
+		font-size: 18pt;
+	}
+	.servico-audio-top{
+		flex-direction: column;
+	}
+
+	.servico-audio-texto-left{
+		width: auto;
+		height: auto;
+		    padding: 30px 30px 0px 30px;
+	}
+
+	.servico-audio-foto-right{
+		height: 30vh;
+		width: auto;
+		margin: 0px 0px 30px 0px;
+
+	}
+
+	.vimeo-middle{
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.vimeo-middle a{
+		margin: 15px 30px;
+	}
+
+.vimeo-middle .thumb_vimeo_img{
+	width: auto;
+	height: 30vh;
+
+}
+
+}

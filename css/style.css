@@ -1,0 +1,680 @@
+/* ------- HEADER BODY TITLES ------- */
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Ubuntu Condensed';
+  height: 100%;
+}
+
+button:focus{
+outline: none!important;
+}
+
+p{
+  font-family: 'Gudea';
+}
+
+a{
+  text-decoration: none
+  color: #fae374
+}
+
+a:focus{
+  outline: none!important;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
+
+.background-home {
+  background-image: url(http://img.glowproducoes.com.br/home/home-bg-pattern.jpg)
+}
+
+.background-servicos {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-bg-pattern.jpg)
+}
+
+.wrapper {
+  width: 1280px;
+}
+
+.content {
+  width: 100%;
+  background-color: #f4f4f4;
+  z-index: 999;
+}
+
+.home-section {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-size: 100%;
+  background: url('http://img.glowproducoes.com.br/home/loading-glow.gif') center no-repeat #a4a4a4;
+}
+
+.title {
+  background: #464646;
+  color: white;
+  padding: 20px;
+  width: auto;
+  z-index: 999;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: inset 0 0 10px #000000;
+  margin: 15px 0px 15px 0px;
+}
+
+.title-service {
+  margin: 0px!important;
+}
+
+.content-title-bar {
+  background: #02151a;
+  width: 1px;
+  margin: 0px 15px;
+  height: 75px;
+}
+
+.content-title {
+  color: white;
+  font-size: 28pt;
+  margin: 0px;
+}
+
+.content-sub-title {
+  color: #d6d6d6;
+  font-size: 18pt;
+  margin: 0px;
+}
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+.hideme {
+  opacity: 0;
+}
+
+.opacity,.opacity:hover {
+  transition: all ease .5s
+}
+
+.background-home,.background-servicos {
+  background-repeat: round;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.opacity:hover {
+  opacity: 0.8!important;
+  cursor: pointer;
+}
+
+.transition {
+  transition: all .5s ease
+}
+
+/* ------- DASHBOARD ------- */
+
+#dashboard,#dashboard-mobile {
+  background-image: url(http://img.glowproducoes.com.br/dashboard/dash-bg.jpg);
+  border: 0;
+  padding: 0px;
+}
+
+#dashboard a,#dashboard-mobile a {
+  color: #f2f2f2
+}
+
+#dashboard-grid {
+  width: 1280px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#dashboard-ul {
+  float: right
+}
+
+#dashboard .navbar-nav>.active>a,#dashboard .navbar-nav>.active>a:focus,#dashboard .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(81,81,81,.8)
+}
+
+#dash-audio:hover .sub,#dash-foto:hover .sub,#dash-port:hover .sub,#dash-site:hover .sub,#dash-video:hover .sub {
+  visibility: visible;
+  transition: all 1s ease
+}
+
+#logo-glow-dash {
+  background-image: url(http://glowproducoes.com.br/sites/glow2017/img/home/home-sprites.png);
+  height: 46px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: -90px -5px;
+  float: left;
+  margin: 0 7px;
+}
+
+#logo-glow-dash:hover {
+  display: block;
+  background-position: -90px -45px
+}
+
+.dash-button {
+  z-index: 5;
+  color: #fff;
+  display: block
+}
+
+.dash-button:hover {
+  background-color: rgba(255,255,255,.1);
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.navbar-collapse{
+  border: none!important;
+}
+
+/* ------- SLIDER ------- */
+
+
+.swiper-container {
+  width: 1280px;
+  height: 547px;
+  padding: 0px;
+  margin: 0px 0px;
+  background: #000;
+  position: static;
+  z-index: 999;
+}
+
+#slider-home,#slider-home-mobile {
+  display: block
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center
+}
+
+.swiper-slide-img {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 50px 0 rgba(0, 0, 0, .75);
+}
+
+/* ------- DEMO REEL ------- */
+
+#video-iframe {
+  height: 537px;
+  width: auto;
+  margin: 0px 15px 15px 15px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3)
+}
+
+#demo {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-servico {
+  background-color: #f4f4f4;
+  min-height: auto;
+  margin-top: 7%
+}
+
+#myframe {
+  width: 353px;
+  height: 45px;
+  border: 0
+}
+
+.resposta {
+  text-align: center;
+  font-size: 8px;
+  color: #191919
+}
+
+.menu-servico {
+  -webkit-box-shadow: inset 0 0 10px 2px rgba(0,0,0,.5);
+  -moz-box-shadow: inset 0 0 10px 2px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 10px 2px rgba(0,0,0,.5);
+  background-image: url(http://img.glowproducoes.com.br/menu-servico-pattern.png);
+  background-repeat: repeat;
+  width: 1280px;
+  height: 56px;
+  top: 56px;
+  position: fixed;
+  z-index: 99
+}
+
+.menu-servico a {
+  color: #191919
+}
+
+.menu-servico a:active,.menu-servico a:focus,.menu-servico a:hover {
+  text-decoration: none;
+  color: red
+}
+
+.menu-servico ul {
+  height: 56px;
+  margin: 0 1%;
+  padding: 0;
+  text-align: center
+}
+
+.menu-servico li {
+  float: right;
+  margin: 18px 10px 0;
+  list-style-type: none;
+  display: inline-table;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+  display: none;
+}
+
+#arrow-back,#contato-icons-mobile,#contato-title-mobile,#localizacao-title-mobile,#p-form-mobile,div#waze-button {
+  display: none
+}
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: .5;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='svgMask'><feGaussianBlur stdDeviation='10' /></filter></svg>#svgMask")
+}
+
+#home-servicos-bg {
+  background-image: url(http://img.glowproducoes.com.br/home/home-servicos-pattern.jpg);
+  background-repeat: repeat;
+  padding: 15px 0px;
+  width: 100%;
+  z-index: 12;
+  position: relative;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0,0,0,.75);
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0,0,0,.75);
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,.75);
+}
+
+.shadow_03 {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3)
+}
+
+.jumptarget::before {
+  content: "";
+  display: block;
+  height: 56px;
+  margin: -56px 0 0
+}
+
+
+
+/* ------- INSTAGRAM ------- */
+
+#instagram-home{
+  padding-bottom: 35px;
+}
+
+#instafeed {
+  width: auto;
+  height: auto;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#instafeed img {
+  border-radius: 90px;
+width: 150px;
+margin: 10px;
+overflow: hidden;
+}
+
+#instafeed img:hover {
+  opacity: .6
+}
+
+/* ------- BACK TO TOP ------- */
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999999
+}
+
+#back-to-top {
+  background-color: #000!important;
+  padding: 20px!important;
+  border: 1px solid #686868;
+  opacity: .7
+}
+
+.back-to-top-arrow {
+  width: 15px;
+  height: 2px;
+  position: absolute;
+  background: #cdcdcd;
+  margin-top: -2px
+}
+
+#back-to-top:hover .back-to-top-arrow {
+  background: #fff
+}
+
+#back-to-top-arrow-l {
+  transform: rotate(-50deg);
+  left: 8px
+}
+
+#back-to-top-arrow-r {
+  transform: rotate(50deg);
+  right: 8px
+}
+
+.tooltip-arrow,.tooltip-inner {
+  display: none!important
+}
+
+/* ------- FOOTER ------- */
+
+footer {
+  z-index: 999;
+  position: relative
+}
+
+#map-site {
+  background-color: #3a3a3a;
+  width: 100%;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.8);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.8);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#map-site li {
+  letter-spacing: .5pt;
+  list-style-type: none;
+  padding: 10px 5px
+}
+
+.map-traco {
+  padding: 20px 1%;
+}
+
+.map-services {
+  padding: 20px 0;
+}
+
+.map-services a {
+  color: white;
+}
+
+.map-services a:hover, .map-title a:hover {
+  color: #fae374;
+}
+
+.map-title a {
+  color: #7fef8f;
+}
+
+#copyright {
+  letter-spacing: .5pt;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.8);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.8);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.8);
+  background-image: url(http://img.glowproducoes.com.br/home/footer-pattern.jpg);
+  background-repeat: repeat-x;
+  width: 100%;
+  padding: 10px;
+}
+
+#copyright p{
+  font-family: 'Ubuntu Condensed'
+}
+
+.copyright-title {
+  flex: 0 0 100%;
+}
+
+#logo-footer,.logo-footer {
+  background-repeat: no-repeat
+}
+
+#copyright-grid {
+  width: 1280px;
+  margin: 0px auto;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+}
+
+#copyright-center{
+  text-align: center
+}
+#copyright-center img{
+  margin-bottom: 10px;
+}
+
+#copyright-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: right ;
+}
+
+.copyright-inline {
+  margin: 5px;
+}
+
+#logo-footer {
+  background: url('http://img.glowproducoes.com.br/home/footer-logo.png') contain;
+  width: 129px;
+  height: 60px;
+  margin: 10px auto 10px auto;
+}
+
+#face-footer {
+  background-position: -86px -95px
+}
+
+#insta-footer {
+  background-position: -10px -95px
+}
+
+#youtube-footer {
+  background-position: -48px -95px
+}
+
+.logo-footer {
+  background: url(http://img.glowproducoes.com.br/home/home-sprites.png) center;
+  width: 30px;
+  height: 30px;
+  margin: 3%;
+}
+
+.logo-footer:hover {
+  opacity: .5;
+  transition: all .5s ease-out
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+  #dashboard-ul {
+    float: none!important;
+    text-align: center;
+  }
+
+  #dashboard-ul a {
+    padding: 2vw;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .wrapper {
+    width: 100%!important
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 60vw;
+    margin-top: 0px;
+    background: #000;
+    position: static;
+  }
+
+  .home-section{
+
+  }
+
+  .title {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .content-title {
+    font-size: 8vw;
+  }
+
+  .content-title-bar {
+    display: none;
+  }
+
+  .content-sub-title {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  #video-iframe {
+    width: auto;
+    height: 42vw
+  }
+
+  #dashboard-ul {
+    float: right;
+    text-align: center;
+  }
+
+  .dash-button {
+    display: inline-table!important
+  }
+
+  .swiper-button-next,.swiper-button-prev,.swiper-pagination-bullets {
+    display: none;
+  }
+
+#instafeed img{
+
+  border-radius: 90px;
+    width: 76px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+  #copyright,#map-grid {
+    width: 100%!important
+  }
+
+  #copyright-grid {
+    margin: 5% auto;
+    width: 98%!important
+  }
+
+  .copyright-inline {
+    margin: 0!important;
+    width: 98%!important
+  }
+
+  #home-servicos-bg {
+    z-index: 0!important;
+
+  }
+
+  #logo-glow-dash {
+    background-image: url(http://glowproducoes.com.br/sites/glow2017/img/home/glow-logo-mobile.png);
+height: 30px;
+width: 90px;
+background-repeat: no-repeat;
+background-position: 0px;
+background-size: cover;
+float: left;
+margin: 10px;
+  }
+
+  #logo-glow-dash:hover {
+    display: block;
+    background-position: 0px
+  }
+
+}

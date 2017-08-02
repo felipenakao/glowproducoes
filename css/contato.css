@@ -1,0 +1,318 @@
+#contato a {
+  color: #222
+}
+
+#contato-icons {
+  float: right
+}
+
+#contato-end {
+  margin: 15px;
+}
+
+.contato-social{
+  display: flex;
+  justify-content: center;
+}
+
+.contato-social a{
+margin: 15px;
+  text-align: center;
+}
+
+#contato-end img{
+  margin-right: 5px;
+}
+
+#contato-end a{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#contato-icons-mobile img {
+  float: left;
+  height: 92px;
+  margin-right: 5px;
+  margin-top: -5px;
+  margin-left: 20px
+}
+
+.contato-messenger,.contato-whatsapp {
+  float: right;
+  text-align: right;
+  height: 40px;
+  font-size: 14pt;
+  line-height: 20px;
+  background-repeat: no-repeat
+}
+
+.contato-messenger:hover {
+  color: #005bff
+}
+
+.contato-messenger {
+  text-decoration: underline
+}
+
+input#Cidade {
+  width: 76%
+}
+
+input#Estado {
+  text-align: center;
+  width: 20%;
+  margin-left: 3%
+}
+
+#contato-title {
+  text-align: center;
+}
+
+#instagram-title {
+  text-align: center;
+  clear: both
+}
+
+#contato-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+
+#contato-box-left {
+  width: 28%;
+}
+
+#contato-box-left p {
+  font-size: 14pt;
+  margin-top: 0
+}
+
+input[type=submit] {
+  width: 100%;
+  border: 0;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.6);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.6);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.6);
+  background: #191919;
+  color: #f4f4f4;
+  transition: all .5s ease;
+  text-align: center
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  transition: all .5s ease;
+  color: #7fef8f;
+  background: #191919
+}
+
+form input {
+  text-align: left;
+  text-transform: uppercase
+}
+
+::-webkit-input-placeholder {
+  text-align: left;
+  text-transform: uppercase
+}
+
+:-moz-placeholder {
+  text-align: left;
+  text-transform: uppercase
+}
+
+::-moz-placeholder {
+  text-align: left;
+  text-transform: uppercase
+}
+
+:-ms-input-placeholder {
+  text-align: left;
+  text-transform: uppercase
+}
+
+form input,form textarea {
+  resize: none;
+  width: 100%;
+  font-size: 12pt;
+  margin: 15px 0px;
+  background: #e0e0e0;
+  border: 0;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  padding: 3% 2%
+}
+
+form input:focus,form input:hover,form textarea:focus,form textarea:hover {
+  background: #ececec
+}
+
+#contato-box-center{
+width: 20%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+
+#contato-box-right {
+  width: 42%;
+  transition: all 1s ease;
+  display: flex ;
+  flex-direction: column ;
+  align-items: center ;
+  padding-top: 15px;
+}
+
+#contato-box-right p {
+  font-size: 16pt
+}
+
+#contato-mapa {
+
+  margin: 7.5px 0px;
+}
+
+#contato-mapa:hover,#map {
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.8)
+}
+
+#contato-mapa:hover {
+  -webkit-shadow: 0 0 5px 0 rgba(0,0,0,.8);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.8)
+}
+
+#map {
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+  z-index: 999;
+  -webkit-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+  transition: all 1s ease;
+  clear: both;
+  position: relative!important;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px){
+
+  #contato-end h4 {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  #tel-mobile {
+    display: block;
+    margin: 5% auto;
+    font-size: 6vw;
+    text-align: center
+  }
+
+    #contato-mapa {
+      width: 100%;
+      height: 42vh;
+    }
+
+    #waze-button {
+      width: auto;
+      vertical-align: middle;
+      margin: 15px 0px 15px 0px;
+    }
+
+    #waze-button-p {
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      height: auto;
+      font-size: 10vw;
+      padding-top: 3vw
+    }
+
+    #waze-button-img {
+      width: 30vw;
+      margin-right: 2.5vw;
+      float: left
+    }
+
+    div#waze-button {
+      display: block
+    }
+
+    #contato-redes-mobile {
+      margin: 1%;
+      width: 98%;
+      height: 20vw;
+      display: table;
+      text-align: center
+    }
+
+    .contato-redes-mobile {
+      width: 15vw;
+      height: 15vw;
+      margin: 2%;
+      display: inline-grid;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat
+    }
+
+    #copyright-left,#copyright-right,#map-site,.tooltip-inner {
+      display: none
+    }
+
+    #contato-redes-mobile-whatsapp {
+      background-image: url(http://img.glowproducoes.com.br/home/whatsapp-mobile.png)
+    }
+
+    #contato-redes-mobile-facebook {
+      background-image: url(http://img.glowproducoes.com.br/home/facebook-mobile.png)
+    }
+
+    #contato-redes-mobile-insta {
+      background-image: url(http://img.glowproducoes.com.br/home/insta-mobile.png)
+    }
+
+    #contato-redes-mobile-youtube {
+      background-image: url(http://img.glowproducoes.com.br/home/youtube-mobile.png)
+    }
+
+  #contato-box-left,#contato-box-right {
+    width: 100%!important;
+    padding: 0px!important;
+    margin: 10px 0px!important;
+    float: none!important;
+    text-align: center;
+    height: auto;
+  }
+
+  #contato-box-left p {
+    font-size: 5vw;
+    margin-bottom: 10px;
+  }
+
+
+
+  #contato-icons-mobile,#contato-redes-mobile,#contato-title-mobile,.contato-whatsapp-mobile {
+    display: block!important
+  }
+
+  #contato-icons {
+    display: none
+  }
+
+}

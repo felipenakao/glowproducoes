@@ -1,0 +1,406 @@
+#artistas-destaque {
+  clear: both;
+margin: 0px 0px 15px 0px;
+width: 100%;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center ;
+padding: 0px;
+
+}
+
+.artistas-destaque-box {
+  border: 0 solid #000;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: top;
+  margin: 7.5px;
+  position: relative;
+}
+
+.artistas-destaque-box:hover {
+  filter: grayscale(1)!important;
+}
+
+.artistas-destaque-box:hover .artistas-destaque-box-title {
+  background-color: #f4f4f4;
+  color: #000
+}
+
+#artistas-destaque-box-0 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-fat.jpg)
+}
+
+#artistas-destaque-box-1 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-edu.jpg)
+}
+
+#artistas-destaque-box-2 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-brazza.jpg)
+}
+
+#artistas-destaque-box-3 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-biel.jpg)
+}
+
+#artistas-destaque-box-4 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-furia.jpg)
+}
+
+#artistas-destaque-box-5 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-hardstuff.jpg)
+}
+
+#artistas-destaque-box-6 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-kiq.jpg)
+}
+
+#artistas-destaque-box-7 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-arte.jpg)
+}
+
+#artistas-destaque-box-8 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-mirandous.jpg)
+}
+
+#artistas-destaque-box-9 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-mani.jpg)
+}
+
+#artistas-destaque-box-10 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-olb.jpg)
+}
+
+#artistas-destaque-box-11 {
+  background-image: url(http://img.glowproducoes.com.br/clientes/clientes-allezy.jpg)
+}
+
+.artistas-destaque-box-title {
+  position: absolute;
+  bottom: 0;
+  font-size: 12pt;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  color: #f4f4f4;
+  background-color: rgba(25,25,25,1)
+}
+
+#artistas-diversos {
+  float: left
+}
+
+#artistas-diversos-box {
+  background-color: #e0e0e0;
+  padding: 12px;
+  margin-top: 30pt;
+  text-align: center;
+  font-size: 12pt;
+  line-height: 40px;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0,0,0,.75);
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0,0,0,.75);
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,.75)
+}
+
+#artistas-diversos-box a {
+  color: #595959;
+  transition: all 1s ease
+}
+
+#artistas-diversos-box a:hover {
+  transition: all 1s ease;
+  color: #000
+}
+
+.artistas-invisible {
+  color: #000
+}
+
+.hotpage-content {
+  padding: 15px;
+}
+
+.top-info {
+  margin: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bio-thumb {
+  display: flex;
+}
+
+.bio-txt {
+  width: 520px;
+  padding: 0px 15px;
+}
+
+.img-left {
+  width: 720px;
+  height: 480px;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.galeria {
+  display: flex;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.img-galeria-2 {
+  width: 500px;
+  cursor: pointer;
+  float: left;
+  background-size: cover !important;
+  background-position-y: 10%;
+}
+
+.img-galeria-3 {
+  width: 400px;
+  height: 230px;
+  cursor: pointer;
+  background-size: cover !important;
+  background-position-y: 10%;
+  background-position-x: center;
+}
+
+.img-galeria-4 {
+  width: 300px;
+  height: 170px;
+  background-size: cover !important;
+  background-position-y: 10%;
+  background-position-x: center;
+  margin: 5px 0px;
+}
+
+.grid-hotpage-left {
+  top: 100px;
+  position: absolute;
+  width: 40vw;
+  left: 25px;
+}
+
+.grid-hotpage-right {
+  top: 100px;
+  position: absolute;
+  width: 40vw;
+  left: 25px;
+}
+
+.hotpage-content h2 {
+  font-size: 18pt;
+  margin: 5% 1%;
+}
+
+.hotpage-content p {
+  font-size: 12pt;
+  text-align: justify;
+  font-family: 'Gudea';
+}
+
+.hotpage-content section {
+  background: #cccccc;
+  margin-bottom: 30px;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotpage-portolio-foto,
+.hotpage-portfolio-video {
+  display: flex;
+  width: 720px;
+  height: 410px;
+}
+
+.hotpage-portfolio-txt {
+  width: 500px;
+  height: auto;
+  background: #eeeeee;
+  padding: 20px;
+}
+
+.hotpage-portfolio-txt-100 {
+  width: 100%;
+}
+
+#hotpage_video_gallery_grid {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px 0px;
+}
+
+.hotpage_video_gallery {
+  width: 390px;
+  margin: 5px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover !important;
+}
+
+.hotpage-portfolio-txt h2 {
+  margin: 10px 0px 10px 0px !important;
+  font-size: 28pt;
+  padding: 7px 0px;
+}
+
+.hotpage-portfolio-gallery {
+  margin: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.extra {
+  background: #2f3340!important;
+  display: none!important;
+}
+
+.extra h2 {
+  font-size: 28pt;
+  text-align: center;
+  width: 100%;
+  margin: 15px 10px;
+  color: #f6e7c0!important;
+  background: #ed5e41!important;
+  padding: 15px;
+}
+
+.extra ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px;
+  padding: 0px;
+  justify-content: center;
+}
+
+.extra .titulo_top {
+  font-size: 22pt;
+  text-align: center;
+  width: 100%;
+  margin: 0px 10px;
+  color: #f6e7c0!important;
+  background: #3f5666!important;
+  padding: 5px;
+}
+
+.hotpage_video_gallery .thumb_vimeo_img {
+  height: 220px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1024px) {
+
+  #artistas-destaque {
+    flex-direction: row;
+      
+  }
+
+  .artistas-destaque-box {
+    width: 44%;
+    height: 32vw!important
+  }
+
+  .hotpage_video_gallery .thumb_vimeo_img {
+    height: auto;
+  }
+
+  .bio-txt {
+    padding: 0px;
+  }
+
+  .hotpage-content p {
+    font-size: 12pt;
+    text-align: center;
+    font-family: 'Gudea';
+  }
+
+  .extra h2 {
+    font-size: 22pt;
+  }
+
+  .hotpage-content h2 {
+    text-align: center;
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  .hotpage-portfolio-txt {
+    padding: 10px;
+  }
+
+  .extra .hotpage_video_gallery {
+    background-position: center;
+    width: 100%;
+    margin: 0px!important;
+    height: auto;
+  }
+
+  .hotpage-portolio-foto,
+  .hotpage-portfolio-video {
+    height: 60vw;
+  }
+
+  .top-info {
+    margin: 5px 0px;
+  }
+
+  .galeria {
+    flex-wrap: wrap;
+    justify-content: center!important;
+  }
+
+  .img-galeria-2 {
+    background-position: center;
+    width: 100%;
+    margin: 10px!important;
+  }
+
+  .img-galeria-3 {
+  }
+
+  .thumb-top {
+    width: 100%!important;
+    margin: 2%;
+    height: 50vw!important;
+  }
+
+  .thumb-bottom {
+    width: 46%!important;
+    margin: 2%;
+    height: 30vw!important;
+  }
+
+  .hotpage_video_gallery {
+    background-position: center;
+    width: 100%;
+    margin: 0px 0px!important;
+  }
+
+  .img-galeria-4 {
+    background-position: center!important;
+    width: 19vw!important;
+    height: 12vw!important;
+    margin: 1vw;
+  }
+}

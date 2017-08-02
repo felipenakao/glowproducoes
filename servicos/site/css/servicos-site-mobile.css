@@ -1,0 +1,94 @@
+@media (max-width: 1024px){
+
+#servico-site-1 {
+
+padding: 15px;
+margin-bottom: 20px;
+
+}
+
+.servico-site-texto-left-full{
+	float: none;
+text-align: justify;
+padding: 0px;
+}
+
+#responsivo img{
+
+	width: 100%;
+height: 45vw;
+}
+
+.servico-site-texto-titulo{
+text-align: center;
+	letter-spacing: 1pt;
+	font-size: 6vw;
+	font-weight: 100;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	font-family: 'Ubuntu Condensed';
+	width: 100%;
+}
+
+#servico-site-port-grid{
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	padding: 0px;
+	display: table;
+}
+
+.servico-site-port-list{
+	margin: 2% 0px;
+width: 100%;
+height:auto!important;
+background: #47474d;
+display: inline-block;
+transition: all ease 0.5s;
+
+}
+
+.servico-site-port-list:hover{
+
+	 -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+	 background: #3a3a40;
+	 transition: all ease 0.5s;
+
+}
+
+.servico-port-list-img{
+
+	height: 57vw;
+width: 100%;
+background-size: cover;
+}
+
+.servico-port-list-title{
+	font-size: 12pt;
+color: white;
+font-weight: 100;
+margin: 10px 0px;
+line-height: 30px;
+
+
+}
+
+#servico-site-img-1{
+
+width: 100%;
+float: none;
+height: 60vw;
+background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/site/img/servico-site-1.jpg');
+margin: 2% 0px;
+background-size: cover;
+
+}
+
+#responsivo text{
+
+	flex-direction: column;
+}
+
+
+
+}

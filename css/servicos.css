@@ -1,0 +1,369 @@
+.saibamais {
+  text-decoration: underline;
+  text-align: right!important;
+  padding: 5px;
+  color: #f7e373
+}
+
+.saibamais-mobile {
+  text-decoration: underline;
+  text-align: right;
+  padding: 5px;
+  color: #f7e373
+}
+
+.servicos-home {
+  font-family: 'Ubuntu Condensed';
+  color: #f4f4f4;
+  letter-spacing: 0;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  transition: all .5s ease;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.servicos-home:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: all 3s ease;
+  text-decoration: none;
+}
+
+#servicos-title {
+  display: none;
+}
+
+.servicos-home-text {
+  display: flex;
+  background: rgba(20, 30, 40, 0.6);
+  padding: 0 10pt 0 10pt
+}
+
+.servicos-home:hover .servicos-home-text {
+  width: auto!important;
+  height: 100%!important;
+  text-align: center;
+  align-items: center;
+}
+
+.align-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servicos-home h4 {
+  font-weight: normal;
+  font-size: 16pt
+}
+
+.servicos-home p {
+  font-family: 'Ubuntu Condensed';
+  font-size: 10pt;
+  margin-top: 5px!important;
+  margin-bottom: 5px!important;
+}
+
+.servicos-home:hover .saibamais {
+  display: block
+}
+
+.servicos-flex {
+  padding: 0px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#servicos left {
+  display: flex;
+  width: 27%;
+  height: 598px;
+  flex-wrap: wrap;
+}
+
+#servicos right {
+  display: flex;
+  width: 72%;
+  height: 598px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+#servicos-home-1 {
+  width: 100%;
+  height: 619px;
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-video.jpg');
+}
+
+#servicos-home-1 #h4-out {
+  font-size: 32pt;
+  margin: 10pt
+}
+
+#servicos-home-text-1 {
+  width: 280px;
+  padding: 10pt;
+  position: absolute;
+  bottom: 0;
+  right: 0
+}
+
+#h4-in {
+  display: none;
+}
+
+#servicos-home-1:hover #h4-out {
+  display: none;
+}
+
+#servicos-home-1:hover #h4-in {
+  font-size: 52pt;
+  text-align: center;
+  margin-top: 50pt;
+  display: block;
+  color: white;
+}
+
+#servicos-home-1:hover .saibamais {
+  font-size: 20pt;
+  padding: 20pt
+}
+
+#servicos-home-1:hover #servicos-home-text-1 p {
+  font-size: 30pt;
+  padding-right: 100pt;
+  padding-left: 100pt;
+  text-align: center;
+  color: white;
+}
+
+#servicos-home-2 {
+  height: 598px;
+  width: 100%;
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-video-desktop.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+#servicos-home-text-2 {
+  width: auto;
+}
+
+#servicos-home-2:hover #servicos-home-text-2 h4 {
+  font-size: 28pt;
+  color: white;
+}
+
+#servicos-home-2:hover #servicos-home-text-2 p {
+  font-size: 14pt;
+  color: white;
+}
+
+#servicos-home-3 {
+  height: 293px;
+  width: 100%;
+  background-position-y: 100%;
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-foto.jpg');
+}
+
+#servicos-home-text-3 {
+  width: 220px;
+  height: 100%;
+  float: right
+}
+
+#servicos-home-3:hover #servicos-home-text-3 h4 {
+  font-size: 32pt;
+  color: white;
+}
+
+#servicos-home-3:hover #servicos-home-text-3 p {
+  font-size: 16pt;
+  color: white;
+  padding: 0px 30px;
+}
+
+#servicos-home-4 {
+  height: 293px;
+  width: 49.3%;
+  background-position-y: -10px;
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-audio.jpg');
+}
+
+#servicos-home-text-4 {
+  width: 220px;
+  height: 100%;
+  text-decoration: none;
+}
+
+#servicos-home-4:hover #servicos-home-text-4 h4 {
+  font-size: 28pt;
+  text-align: center;
+  color: white;
+}
+
+#servicos-home-4:hover #servicos-home-text-4 p {
+  font-size: 14pt;
+  margin: 10px 0 10px 0;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-align: center;
+  color: white;
+}
+
+#servicos-home-5 {
+  height: 293px;
+  width: 49.3%;
+  background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-digital.jpg');
+}
+
+#servicos-home-text-5 {
+  width: 220px;
+  height: 100%;
+  float: right
+}
+
+#servicos-home-5:hover #servicos-home-text-5 h4 {
+  font-size: 28pt;
+  text-align: center;
+  color: white;
+}
+
+#servicos-home-5:hover #servicos-home-text-5 p {
+  font-size: 14pt;
+  margin: 10px 0 10px 0;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  text-align: center;
+  color: white;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+
+
+@media ( max-width : 1024px ) {
+  #servicos-home-1, #servicos-home-2, #servicos-home-3, #servicos-home-4,#servicos-home-5 {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 0px;
+    margin: 0px 0px 15px 0px !important;
+    position: relative !important;
+    color: white;
+  }
+
+  #servicos-home-1:hover .saibamais {
+    font-size: 3vw!important;
+    padding: 0px!important;
+  }
+
+  #servicos left {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  #servicos right {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .servicos-home-text {
+    width: 95% !important;
+    position: relative !important;
+    height: auto !important;
+    margin: auto;
+    background: rgba(20, 30, 40, 0.8) !important;
+    padding: 0px 15px 15px 15px!important;
+    float: none !important;
+  }
+
+  .servicos-home:hover .servicos-home-text {
+    width: 95%!important;
+    height: auto!important;
+    text-align: center;
+  }
+
+  .bg-mobile {
+    display: block;
+    width: 122%;
+    height: 60vw;
+    clear: both;
+    background-position: initial !important;
+    background-size: cover;
+    position: relative;
+    margin-left: -30px;
+  }
+
+  #h4-out {
+    display: none;
+  }
+
+  #h4-in {
+    display: block !important;
+  }
+
+  #bg-mobile-2 {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-video.jpg');
+  }
+
+  #bg-mobile-3 {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-foto.jpg');
+  }
+
+  #bg-mobile-4 {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-audio.jpg');
+  }
+
+  #bg-mobile-5 {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-digital.jpg');
+  }
+
+  #bg-mobile-1 {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/img/servicos/servicos-home-video.jpg');
+  }
+
+  .servicos-home {
+    background-image: none !important;
+  }
+
+  .servicos-home h4, .servicos-home:hover h4 {
+    font-size: 6vw!important;
+    margin: 20px 0px !important;
+    text-align: center !important;
+  }
+
+  .servicos-home p, .servicos-home:hover p {
+    margin-top: 2vw!important;
+    margin-bottom: 2vw;
+    text-align: justify!important;
+    font-size: 4vw!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+
+  .servicos-home:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    cursor: pointer;
+    transition: all .5s ease
+  }
+
+  .saibamais {
+    text-align: right;
+    padding: 0!important;
+  }
+
+
+}

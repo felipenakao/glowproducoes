@@ -1,0 +1,122 @@
+@media(max-width:1024px) {
+
+
+
+
+
+  .servico-section p{
+color: white;
+  margin: 15px;
+  }
+
+  .active {
+    font-family: 'Ubuntu Condensed';
+    color: #ff0a6c!important;
+  }
+
+  #ensaio {
+    background: #23201d;
+  }
+
+  .ensaio-color {
+    height: 100%;
+    background: -moz-linear-gradient(left, rgba(35,32,29,1) 0%, rgba(35,32,29,0.51) 44%, rgba(35,32,29,0.5) 45%, rgba(35,32,29,0) 50%);
+ /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(35,32,29,1) 0%,rgba(35,32,29,0.51) 44%,rgba(35,32,29,0.5) 45%,rgba(35,32,29,0) 50%);
+ /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(35,32,29,1) 0%,rgba(35,32,29,0.51) 44%,rgba(35,32,29,0.5) 45%,rgba(35,32,29,0) 50%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+
+  #eventos {
+    background: #132245;
+  }
+
+  #titulo-foto-2 {
+    width: 52%;
+    float: right;
+  }
+
+  #publicitario p{
+    color: black!important;
+    text-align: center;
+  }
+
+  #bastidores {
+    background: #9d0073;
+
+  
+  }
+
+  .capa {
+    height: 53vw;
+    width: 100%;
+    background-size: 100% !important;
+    float: none;
+    margin: 0px;
+  }
+
+  .servico-foto-content {
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .servico-foto-content div {
+    background-size: cover !important;
+    background-position: center;
+  }
+
+  .column-1,.column-2,.column-3,.column-4 {
+    width: 100%;
+    float: none;
+    text-align: center;
+    display: inline;
+  }
+
+  .column-vertical-1,.column-vertical-2,.column-vertical-3,.vertical-1,.vertical-2,.vertical-3 {
+    height: 20vw;
+  }
+
+  .horizontal-1,.horizontal-2,.horizontal-3,.horizontal-4 {
+    width: 21%;
+    float: none;
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .servico-foto-texto-left p, .servico-foto-texto-right p {
+    font-family: 'Gudea';
+    font-size: 12pt;
+  }
+
+  .servico-foto-texto-left {
+    width: 100%;
+    float: none;
+    padding: 20px;
+  }
+
+  .servico-foto-texto-right {
+    width: 100%;
+    float: right;
+    padding: 20px;
+  }
+
+  .servico-foto-texto-titulo {
+
+    letter-spacing: 1pt;
+    font-size: 24pt;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: 'Ubuntu Condensed';
+  }
+
+#bastidores-texto{
+width: 100%;
+
+}
+
+}

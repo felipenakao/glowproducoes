@@ -1,0 +1,723 @@
+@media ( max-width : 1024px) {
+
+  #submenu a{
+    padding: 7.5px 25px;
+  }
+
+  #vermais {
+    width: 100%;
+  }
+
+  .vermais {
+    width: 80%;
+  }
+
+  .bottom-vimeo {
+    margin: 0px;
+    height: auto;
+    text-align: center;
+  }
+
+  .bottom-vimeo-list {
+    margin: 2% 2%;
+    height: auto;
+    width: 46%;
+  }
+
+  .legenda {
+    font-size: 18pt;
+  }
+
+  .align-center {
+    text-align: center!important;
+  }
+
+  .align-right {
+    text-align: right!important;
+  }
+
+  .align-left {
+    text-align: left!important;
+  }
+
+  .capa {
+    height: auto!important;
+    width: 100%!important;
+    background-image: none!important;
+  }
+
+  .capa-mobile {
+    width: 100%;
+    height: 46vw!important;
+    display: block;
+    background-size: cover;
+  }
+
+
+  .servico-section h2 {
+    color: white;
+    padding: 5%;
+  }
+
+  .servico-section p {
+    padding: 2%;
+    text-align: justify;
+    color: white;
+    font-size: 12pt!important;
+    font-family: 'Gudea'!important;
+    margin: 0px;
+  }
+
+  .servico-section iframe {
+    height: 56vw;
+  }
+
+  .thumb-foto {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: table;
+    text-align: center;
+  }
+
+  .thumb-foto-list {
+    width: 30%;
+    margin: 1%;
+    height: 32vw;
+    display: inline-flex;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .thumb_vimeo_img {
+    height: auto!important;
+        padding: 20%;
+  }
+
+  .servico-texto-left {
+    width: 100%;
+    padding: 0px!important;
+    font-size: 12pt;
+  }
+
+  .servico-texto-titulo {
+    font-size: 10vw;
+    margin: 0px;
+  }
+
+  .servico-color-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .videoclipe-fotos-square {
+    width: 16vw!important;
+    height: 16vw!important;
+    margin: 1.6vw;
+  }
+
+  .bottom-vimeo iframe {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .bottom-vimeo h3 {
+    color: white;
+    font-size: 3vw;
+    padding: 10px 5px;
+    background: #565656;
+  }
+
+  .bottom-fotos {
+    margin-bottom: 0px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .bottom-fotos-list-4 {
+    width: 28%;
+    height: 27vw;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #videoclipe-fotos .flex {
+    height: 20vw;
+    padding: 0px;
+  }
+
+/** SECTION 1 ------------------------------------------- **/
+
+
+
+
+  #videoclipe-featured {
+    display: static;
+  }
+
+  #videoclipe-featured-video {
+    width: 100%;
+    height: 300px;
+    float: none;
+    margin: 0px;
+  }
+
+  #videoclipe-featured-texto {
+    float: none;
+    width: 100%;
+    font-size: 9.5pt;
+    padding: 0px;
+  }
+
+  #videoclipe-fotos {
+    margin: 0px 2%;
+    padding: 0px;
+  }
+
+  .servico-video-bottom-title {
+    background: #565656;
+    text-align: center;
+    margin: 0px;
+    float: left;
+    color: white;
+    font-size: 22pt;
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  #videoclipe-bottom-vimeo-vermais {
+    color: black;
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/video/img/vermais-videoclipe-1.jpg');
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    font-size: 22pt;
+    line-height: 50px;
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.3);
+    transition: all 0.5s ease;
+  }
+
+  #videoclipe-bottom-vimeo-vermais:hover {
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.5);
+    display: inline-flex;
+  }
+
+
+
+/** SECTION 1 ------------------------------------------- **/
+
+
+
+  #thumb_vimeo_1_id_0,#thumb_vimeo_1_id_5 {
+    width: 97%!important;
+  }
+
+
+
+
+/** SECTION 2 ------------------------------------------- **/
+
+
+
+
+/* --------------------------- SERVICO 2 ----------------------------- */
+
+
+
+  #aovivo {
+    background: black;
+  }
+
+  #aovivo-capa {
+    height: 697px;
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/video/img/background-shows.jpg');
+  }
+
+  #aovivo-texto-grid {
+    margin: 0px;
+  }
+
+  #aovivo-legenda {
+    padding: 20px;
+  }
+
+  #aovivo-texto-left {
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin-top: 0px!important;
+    padding: 0px;
+    color: white;
+  }
+
+  #aovivo-texto-center,#aovivo-video-right {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: auto!important;
+  }
+
+  #foto-shows-2{
+display: none!important;
+  }
+
+
+  #aovivo-bottom-vimeo {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/video/img/pattern-foto-videoclipe.jpg');
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .aovivo-bottom-vimeo {
+    background: #565656;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    float: left;
+    color: white;
+    font-size: 22pt;
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .aovivo-bottom-vimeo h3 {
+    font-size: 12pt;
+    padding: 10px;
+  }
+
+  #aovivo-fotos-legenda {
+    width: 100%;
+    color: black;
+    font-size: 24pt;
+    text-align: center;
+    position: static;
+    margin: 2% auto;
+    float: left;
+  }
+
+
+
+
+/* --------------------------- SERVICO 3 ----------------------------- */
+
+  #servico-foto-3-id-16 {
+    display: none!important;
+  }
+
+  #institucional {
+    background: white;
+  }
+
+  #institucional-texto-right {
+    float: none!important;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 1pt;
+    width: 100%!important;
+    text-align: left;
+    padding: 0px;
+    margin: 0px!important;
+    color: black;
+  }
+
+  #institucional-texto-right p {
+    font-family: 'Gudea';
+  }
+
+  #institucional-video-left {
+    width: 100%;
+    height: auto;
+    float: none;
+    background: black;
+    margin: 0px!important;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  #institucional-bottom-vimeo, #institucional-acao-vimeo {
+    margin: 0px;
+    float: none;
+    text-align: center;
+    width: 100%;
+    display: table;
+  }
+
+  .institucional-bottom-vimeo {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: #565656;
+    margin: 0px;
+  }
+
+  .institucional-bottom-vimeo iframe {
+    height: 215px;
+  }
+
+  .institucional-acao-vimeo iframe {
+    height: 326px;
+  }
+
+  .institucional-bottom-vimeo h3, .institucional-acao-vimeo h3 {
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+  }
+
+  .institucional-acao-vimeo {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: #565656;
+    margin: 0px;
+  }
+
+  #institucional-fotos {
+  width: 100%;
+  }
+
+  #institucional-texto-grid{
+
+  margin-top: 0px;
+
+
+  }
+
+  .institucional-fotos {
+    width: 29%;
+    height: 29vw;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #relacionados {
+    margin-bottom: 60px;
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+
+  #relacionados-imagens-aereas {
+    background-image: url('http://www.glowproducoes.com.br/sites/glow2017/servicos/video/img/background-aereas.jpg');
+  }
+
+  #relacionados-fotos-promocionais {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/img/home/portfolio-home-foto.jpg');
+  }
+
+  #relacionados-desenvolvimento-de-site {
+    background-image: url('http://www.glowproducoes.com.br/sites/glow2017/servicos/site/img/servico-site-1.jpg');
+  }
+
+  .relacionados-title {
+    background: #565656;
+    text-align: center;
+    margin: auto;
+    font-size: 20pt;
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
+    color: white;
+  }
+
+  #relacionados h3 {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: #565656;
+    margin: 170px 0px 0px 0px;
+    font-size: 12pt;
+  }
+
+  .relacionados-list {
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    display: inline-flex;
+    background-size: 100%;
+    ;
+background-repeat: no-repeat;
+    transition: all ease 0.5s;
+    border: 1px #e0e0e0 solid;
+  }
+
+  .relacionados-list:hover {
+    border: 1px black solid;
+    box-shadow: 0px 0px 30px 0px rgba(214, 214, 214, 0.3);
+  }
+
+
+
+/*------------------- SERVICO 4 -----------------------------*/
+
+  #eventos {
+    background: #3d3d42;
+  }
+
+  #eventos-capa {
+    height: 722px;
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/video/img//background-eventos-middle.jpg');
+    background-size: 100%;
+    background-position-y: top;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #eventos-texto-left {
+    font-family: 'Gudea';
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+    letter-spacing: 1pt;
+  }
+
+  #eventos-video-left {
+    width: 100%;
+    background: black;
+    height: auto;
+    margin: 0px;
+    float: none;
+  }
+
+
+
+  #eventos-fotos {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/video/img/pattern-foto-videoclipe.jpg');
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #eventos-fotos p {
+    color: black!important;
+  }
+
+  #eventos-fotos-right{
+    width: 100%;
+  }
+
+  .eventos-fotos-right {
+    width: 29%;
+    height: 27vw;
+    margin: 2%;
+  }
+
+  #eventos-bottom-vimeo {
+    width: 100%;
+    margin: 30px auto 0px auto;
+    height: auto;
+    flex-direction: row;
+  }
+
+  #eventos-bottom-vimeo-left {
+    width: 47%;
+    height: auto;
+    margin: 1%;
+    float: none;
+    clear: none!important;
+  }
+
+  #eventos-bottom-vimeo-right {
+    width: 96%;
+    height: auto;
+    margin: 9px auto;
+    float: none;
+  }
+
+  .eventos-bottom-vimeo-right {
+    width: 97%;
+    height: auto;
+    float: none;
+  }
+
+  #eventos-bottom-vimeo-right h3 {
+    color: white;
+    padding: 10px;
+    background: #565656;
+  }
+
+  .eventos-bottom-vimeo {
+    background: #565656;
+    margin: 2%;
+    overflow: hidden;
+  }
+
+  .eventos-bottom-vimeo h3 {
+    color: white;
+    padding: 11px;
+    background: #565656;
+  }
+
+/**-------------------------------SECTION 5 ----------------------------------------------------*/
+
+  #youtuber {
+    background: #bd3628;
+  }
+
+  #youtuber-capa {
+    height: auto!important;
+    background-size: cover;
+    background-position-x: center;
+  }
+
+  #youtuber-top-vimeo{
+
+height: 55vw;
+
+  }
+
+  #youtuber-texto-right {
+    letter-spacing: 1pt;
+    font-family: 'Gudea';
+    float: none;
+    font-weight: 100;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+  }
+
+  #youtuber-video-left {
+    width: 100%;
+    height: auto;
+    float: none;
+    background: black;
+    margin: 0px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  #youtuber-bottom-vimeo {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    display: table;
+  }
+
+  .youtuber-bottom-vimeo {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: #f2f2f2;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .youtuber-bottom-vimeo h3 {
+    margin: 0px;
+    color: black;
+    font-weight: 100;
+    padding: 10px;
+  }
+
+  #youtuber-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: -90px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #youtuber-box-right h3 {
+    margin: 0px;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    background: black;
+  }
+
+  #youtuber p{
+    text-align: center;
+  }
+
+  #youtuber-box-left {
+width: 100%;
+justify-content: center;
+padding: 30px 60px;
+height: auto;
+
+  }
+
+  .youtuber-box-middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  #youtuber-box-right {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    background: white;
+  }
+
+  #audio-react-1{
+
+    width: 100%;
+  }
+
+  #drone {
+    background: #182f50;
+
+  }
+
+  #drone-capa {
+    background-image: url('http://glowproducoes.com.br/sites/glow2017/servicos/video/img/background-aereas.jpg');
+    height: 790px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -20px;
+  }
+
+  #drone-video-grid{
+
+        margin-top: 0px;
+  }
+
+  #drone-texto-left {
+    letter-spacing: 1pt;
+    float: none;
+    font-weight: 100;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+  }
+
+  #drone-video-left {
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    background: black;
+    height: auto;
+    margin: 0px;
+    float: none;
+    padding: 20px 0px;
+  }
+
+  #drone-fotos {
+    width: 100%;
+  }
+
+  .drone-fotos {
+    width: 44%;
+    height: 165px;
+    margin: 5px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+  }
+}

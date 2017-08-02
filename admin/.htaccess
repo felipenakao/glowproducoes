@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/glowprod/public_html/sites/glow2017/admin/.htpasswd
+require valid-user
+
+#Alternate default index page
+DirectoryIndex admin.php

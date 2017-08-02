@@ -1,0 +1,169 @@
+.servico-section p {
+  font-family: Gudea;
+}
+
+.active {
+  font-family: 'Ubuntu Condensed';
+  color: #ff0a6c!important;
+}
+
+#ensaio {
+  background: #23201d;
+  z-index: 10;
+  margin-top: 0px;
+}
+
+
+#eventos {
+  background: #132245;
+    z-index: 9;
+}
+
+#publicitario .servico-foto-texto-left{
+
+  justify-content: baseline!important;
+}
+
+
+#publicitario{
+  z-index: 8;
+}
+
+#bastidores {
+  background: #9d0073;
+    z-index: 7;
+}
+
+#bastidores-texto {
+  color: white;
+width: 580px;
+float: left;
+font-size: 12pt;
+padding: 10px;
+}
+
+.ensaio-color {
+  height: 100%;
+  background: -moz-linear-gradient(left, rgba(35,32,29,1) 0%, rgba(35,32,29,0.51) 44%, rgba(35,32,29,0.5) 45%, rgba(35,32,29,0) 50%);
+ /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(35,32,29,1) 0%,rgba(35,32,29,0.51) 44%,rgba(35,32,29,0.5) 45%,rgba(35,32,29,0) 50%);
+ /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(35,32,29,1) 0%,rgba(35,32,29,0.51) 44%,rgba(35,32,29,0.5) 45%,rgba(35,32,29,0) 50%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.capa {
+  height: 720px;
+  width: 1280px;
+  background-size: 100% !important;
+}
+
+.servico-foto-content {
+  padding: 60px;
+  height: auto;
+  width: 1280px;
+}
+
+.servico-foto-content div {
+  background-size: cover !important;
+}
+
+.column-4 {
+  width: 1170px;
+  float: left;
+}
+
+.column-2 {
+  width: 580px;
+  float: left;
+}
+
+.column-3 {
+  width: 870px;
+  float: left;
+}
+
+.column-1 {
+  width: 290px;
+  float: left;
+}
+
+.column-vertical-1 {
+  height: 184px;
+}
+
+.column-vertical-2 {
+  height: 369px;
+}
+
+.column-vertical-3 {
+  height: 563px;
+}
+
+.vertical-1 {
+  height: 174.5px;
+}
+
+.vertical-2 {
+  height: 359px;
+}
+
+.vertical-3 {
+  height: 553px;
+}
+
+.horizontal-1 {
+  width: 280px;
+  float: left;
+  margin: 5px;
+}
+
+.horizontal-2 {
+  width: 570px;
+  float: left;
+  margin: 5px;
+}
+
+.horizontal-3 {
+  width: 860px;
+  float: left;
+  margin: 5px;
+}
+
+.horizontal-4 {
+  width: 1150px;
+  float: left;
+  margin: 5px;
+}
+
+.servico-foto-texto-left p, .servico-foto-texto-right p {
+  font-family: 'Gudea';
+  font-size: 12pt;
+}
+
+.servico-foto-texto-left {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+padding: 60px;
+}
+
+
+
+.servico-foto-texto-right {
+  width: 500px;
+  text-align: right ;
+  float: right;
+  padding: 60px;
+}
+
+.servico-foto-texto-titulo {
+  letter-spacing: 1pt;
+  font-size: 24pt;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-family: 'Ubuntu Condensed';
+}
